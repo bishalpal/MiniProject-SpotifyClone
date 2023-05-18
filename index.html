@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sasta Spotify</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav>
@@ -17,12 +17,18 @@
         </ul>
     </nav>
     <div class="container">
+        <h1>Best of 2022 - EDM's and Classics</h1>
         <div class="songList"></div>
         <div class="songBanner"></div>
     </div>
     
     <div class="bottom">
-        
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <!-- protip -  u can think of the icons as text. So, whatever CSS can be applied on text can be applied on icons as well. -->
+            <i class="fa-regular fa-circle-play fa-lg"></i>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
