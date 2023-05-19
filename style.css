@@ -50,6 +50,7 @@ nav ul li {
     padding: 15px;
     background-image: url('./resources/images/bg1.jpg');
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .bottom {
@@ -71,6 +72,27 @@ nav ul li {
 .icons i {
     cursor: pointer;
 }
+
 #myProgressBar {
     width: 80vw;
+}
+
+.songItem {
+    display: flex;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.songItem img {
+    height: 40px;
+    width: 40px;
+    margin: 0 15px;
+}
+
+.songListPlay i {
+    cursor: pointer;
+}
+.timestamp {
+    margin: 0 10px;
 }
