@@ -39,20 +39,38 @@ nav ul li {
 }
 
 .container {
-    min-height: 78vh;
+    min-height: 70vh;
+    font-family: 'Varela Round', sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 75vw;
+    border-radius: 12px;
+    padding: 15px;
+    background-image: url('./resources/images/bg1.jpg');
+    background-size: contain;
 }
 
 .bottom {
     position: sticky;
-    height: 115px;
+    height: 110px;
     background-color: black;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
 }
 
+.icons {
+    margin-top: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+}
 #myProgressBar {
     width: 80vw;
 }
