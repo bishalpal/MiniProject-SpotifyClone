@@ -38,6 +38,10 @@ nav ul li {
     font-size: 1.3rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
 .container {
     min-height: 70vh;
     font-family: 'Varela Round', sans-serif;
