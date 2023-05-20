@@ -19,7 +19,7 @@
     <div class="container">
         <div class="songBanner"></div>
         <div class="songList">
-            <h1>Best of 2023 - EDM and Instrumental</h1>
+            <h1>Old Playlist - EDM and Instrumental</h1>
             <div>
                 <div class="songItem">
                     <img src="https://i1.sndcdn.com/artworks-VEzwQzSZsZ0mlrZ7-BaxvlQ-t40x40.jpg" alt="coverImage">   <!--cover image -->
@@ -28,7 +28,7 @@
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/2.jpg" alt="coverImage">   <!--cover image -->
-                    <span>Boulevard of Broken Dreams</span>
+                    <span>Boulevard of Dreams</span>
                     <span class="songListPlay"><span class="timestamp">4:20</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
                 </div>
                 <div class="songItem">
@@ -67,26 +67,27 @@
                     <span class="songListPlay"><span class="timestamp">3:12</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
                 </div>
                 <div class="songItem">
-                    <img src="./resources/images/LOFI.jpg" alt="coverImage">   <!--cover image -->
-                    <span>Purrple Cat - Skyblue</span>
-                    <span class="songListPlay"><span class="timestamp">3:12</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <img src="https://i1.sndcdn.com/artworks-000198582455-ueqgjg-t40x40.jpg" alt="coverImage">   <!--cover image -->
+                    <span>Warriyo - Mortals</span>
+                    <span class="songListPlay"><span class="timestamp">3:48</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
                 </div>
             </div>
         </div>
     </div>
     
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
         <div class="icons">
             <!-- fontawesome icons  -->
             <!-- protip -  u can think of the icons as text. So, whatever CSS can be applied on text can be applied on icons as well. -->
             <!-- <i class="fa-regular fa-circle-pause fa-xl"></i> -->
             <i class="fa-solid fa-backward-step fa-xl"></i>
-            <i class="fa-regular fa-circle-play fa-xl"></i>
+            <i class="fa-regular fa-circle-play fa-xl" id="masterPlay"></i>
             <i class="fa-solid fa-forward-step fa-xl"></i>
         </div>
         <div class="songInfo">
-            <img src="./resources/images/musicgifplay.gif" alt="" width="100px">
+            <img src="./resources/images/musicgifplay.gif" id="gif" alt="" width="40px">
+            Dragon Stone 
         </div>
     </div>
     <script src="script.js"></script>
