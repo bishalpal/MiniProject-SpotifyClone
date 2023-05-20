@@ -24,52 +24,52 @@
                 <div class="songItem">
                     <img src="https://i1.sndcdn.com/artworks-VEzwQzSZsZ0mlrZ7-BaxvlQ-t40x40.jpg" alt="coverImage">   <!--cover image -->
                     <span>Black Adam</span>
-                    <span class="songListPlay"><span class="timestamp">1:58</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">1:58</span><i id="(1)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/2.jpg" alt="coverImage">   <!--cover image -->
                     <span>Boulevard of Dreams</span>
-                    <span class="songListPlay"><span class="timestamp">4:20</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">4:20</span><i id="(2)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="https://i1.sndcdn.com/artworks-VzHVSDZywHE6HCRt-Fjy1PQ-t40x40.jpg" alt="coverImage">   <!--cover image -->
                     <span>CJ Whoopty ERS</span>
-                    <span class="songListPlay"><span class="timestamp">3:09</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">3:09</span><i id="(3)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="https://i1.sndcdn.com/artworks-h4j9YQr974vs-0-t40x40.jpg" alt="coverImage">   <!--cover image -->
                     <span>Dragon Stone</span>
-                    <span class="songListPlay"><span class="timestamp">5:06</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">5:06</span><i id="(4)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/LOFI.jpg" alt="coverImage">   <!--cover image -->
                     <span>Hand In Glove</span>
-                    <span class="songListPlay"><span class="timestamp">2:09</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">2:09</span><i id="(5)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/twosteps.jpg" alt="coverImage">   <!--cover image -->
                     <span>Black Blade</span>
-                    <span class="songListPlay"><span class="timestamp">3:05</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">3:05</span><i id="(6)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/twosteps.jpg" alt="coverImage">   <!--cover image -->
                     <span>BlackHeart</span>
-                    <span class="songListPlay"><span class="timestamp">4:32</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">4:32</span><i id="(7)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/twosteps.jpg" alt="coverImage">   <!--cover image -->
                     <span>Riders</span>
-                    <span class="songListPlay"><span class="timestamp">3:30</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">3:30</span><i id="(8)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="./resources/images/LOFI.jpg" alt="coverImage">   <!--cover image -->
                     <span>Cupla - Serenity</span>
-                    <span class="songListPlay"><span class="timestamp">3:12</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">3:12</span><i id="(9)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
                 <div class="songItem">
                     <img src="https://i1.sndcdn.com/artworks-000198582455-ueqgjg-t40x40.jpg" alt="coverImage">   <!--cover image -->
                     <span>Warriyo - Mortals</span>
-                    <span class="songListPlay"><span class="timestamp">3:48</span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+                    <span class="songListPlay"><span class="timestamp">3:48</span><i id="(10)" class="fa-regular fa-circle-play fa-lg songItemPlay"></i></span>
                 </div>
             </div>
         </div>
@@ -81,13 +81,13 @@
             <!-- fontawesome icons  -->
             <!-- protip -  u can think of the icons as text. So, whatever CSS can be applied on text can be applied on icons as well. -->
             <!-- <i class="fa-regular fa-circle-pause fa-xl"></i> -->
-            <i class="fa-solid fa-backward-step fa-xl"></i>
+            <i class="fa-solid fa-backward-step fa-xl" id="previous"></i>
             <i class="fa-regular fa-circle-play fa-xl" id="masterPlay"></i>
-            <i class="fa-solid fa-forward-step fa-xl"></i>
+            <i class="fa-solid fa-forward-step fa-xl" id="next"></i>
         </div>
         <div class="songInfo">
             <img src="./resources/images/musicgifplay.gif" id="gif" alt="" width="40px">
-            Dragon Stone 
+            <span id="currentPlaying"></span>
         </div>
     </div>
     <script src="script.js"></script>
